@@ -1,0 +1,11 @@
+Module
+  name: position_exporter
+  description: Exports player position and stats to JSON file for external bot integration
+  author: OTC Bot
+  version: 1.0
+  autoload: true
+  sandboxed: false
+  scripts: [ position_exporter.lua ]
+
+  @onLoad: init()
+  @onUnload: terminate()
